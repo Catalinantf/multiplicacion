@@ -6,7 +6,7 @@ let validar = (x) => {
         let numero = x;
         for (i = 1; i <= numero; i++) {
             let resultado = numero * i;
-            console.log(numero + " x " + i + " = " + resultado)
+            document.write(numero + " x " + i + " = " + resultado)
         }
 
         for (let i = 1; i <= x; i++) {
@@ -14,7 +14,7 @@ let validar = (x) => {
             for (let j = 1; j <= i; j++) {
                 res = res * j;
             }
-            console.log("Factorial de " + i + " es : " + res)
+            document.write("Factorial de " + i + " es : " + res)
         }
     } else {
         alert("Número fuera del rango")
